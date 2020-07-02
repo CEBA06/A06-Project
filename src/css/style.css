@@ -5,7 +5,46 @@
 }
 
 /* css om jagad */
-
+ul {
+  list-style-type : none;
+}
+section nav {
+  padding : 0;
+  margin : 0;
+}
+.container {
+  width : 95%;
+}
+.navbar-wrapper {
+  height : 100px;
+  background-color : #e5e5e5;
+  width : 100%
+}
+.navbar-logo {
+  float : left;
+  font-size : 30px;
+  color : #37447E;
+  line-height : 100px;
+}
+.navbar-right {
+  float : right;
+}
+.navbar-right li {
+  float : left;
+  padding : 20px;
+}
+.navbar-right a {
+  display : block;
+  color : #505F98;
+  text-decoration : none;
+  background-color : #e5e5e5;
+  text-align : center;
+  padding : 20px 30px;
+  transition : all 0.3s;
+  opacity : 1;
+  border-radius : 2px;
+  text-shadow : 0 4px 4px rgba(0, 0, 0, 0.25);
+}
 /* css om syahril */
 
 /* css om dika */
