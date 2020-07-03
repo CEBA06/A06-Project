@@ -90,7 +90,7 @@ ul {
 }
 /* css om syahril */
 main {
-  height: 590px;
+  margin-top: 100px;
   padding: 70px;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -158,11 +158,33 @@ main {
   background-color: rgb(65, 68, 100);
 }
 @media only screen and (max-width: 600px) {
-  .wrapper{
-
-  }
+    main {
+      padding: 50px 40px;
+      background-position: center;
+      background-size: 800px;
+    }
+    .wrapper {
+      color: red;
+      width: 100%;
+   }
+   .wrapper h1 {
+     font-size: 25px;
+   }
+   .wrapper p{
+     font-size: 15px;
+     text-align: justify;
+   }
+   .wrapper p2 {
+    font-size: 15px;
+    text-align: justify;
+   }
+   .btn {
+     margin: 10px auto;
+     width: 200px;
+     display: block;
+     padding: 5px 0;
+    }
 }
-
 /* css om dika */
 section {
     padding: 5px;
