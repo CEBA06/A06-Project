@@ -30,8 +30,30 @@ p.content-card1 {
 }
 
 h1.header-card1 {
-  margin-bottom: 20px;
   font-size: 30px;
+}
+
+div.line-card1 {
+    height: 6px;
+    background-color: rgba(36, 0, 194, 0.808);
+    width: 0px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    animation-play-state: paused;
+}
+
+.container-card1:hover div.line-card1 {
+    animation: linecard1 4s forwards;
+}
+
+@keyframes linecard1 {
+    from {
+    }
+    to {
+        width: 30%;
+        background-color: rgba(47, 0, 255, 0.842);
+    }
 }
 
 @keyframes card1 {
