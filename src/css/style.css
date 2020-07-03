@@ -195,10 +195,6 @@ div.line-card1 {
     margin-top: 10px;
     margin-bottom: 20px;
     border-radius: 2px;
-    animation-play-state: paused;
-}
-
-.container-card1:hover div.line-card1 {
     animation: linecard1 4s forwards;
 }
 
