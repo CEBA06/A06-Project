@@ -159,10 +159,11 @@ main {
   background-color: rgb(65, 68, 100);
 }
 @media only screen and (max-width: 600px) {
-  .wrapper {
+  .wrapper{
 
   }
-}
+
+  
 /* css om dika */
 section {
     padding: 5px;
