@@ -159,6 +159,7 @@ main {
 }
 @media only screen and (max-width: 600px) {
     main {
+      margin-top: 0px;
       padding: 50px 40px;
       background-position: center;
       background-size: 800px;
