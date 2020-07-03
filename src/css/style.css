@@ -170,11 +170,13 @@ section {
 }
 
 .container-card1 {
+    position: relative;
     padding: 70px 100px;
     margin: 5px auto;
     width: 70%;
     background-color: #E7ECFF;
     border-radius: 70px;
+    animation: card1 2s;
 }
 
 p.content-card1 {
@@ -185,6 +187,17 @@ p.content-card1 {
 h1.header-card1 {
   margin-bottom: 20px;
   font-size: 30px;
+}
+
+@keyframes card1 {
+    from {
+        top: 20px;
+        opacity: 0;
+    }
+    to {
+        top: 0px;
+        opacity: 1;
+    }
 }
 
 @media only screen and (max-width: 600px) {
